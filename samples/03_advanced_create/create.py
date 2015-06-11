@@ -17,7 +17,7 @@ if __name__ == '__main__':
     c1 = epub.EpubHtml(title='Introduction', file_name='intro.xhtml', lang='hr')
     c1.content=u'<html><head></head><body><h1>Introduction</h1><p>Introduction paragraph where i explain what is happening.</p></body></html>'
 
-    # defube style
+    # default style
     style = '''BODY { text-align: justify;}'''
 
     default_css = epub.EpubItem(uid="style_default", file_name="style/default.css", media_type="text/css", content=style)
